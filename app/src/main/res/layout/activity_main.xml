@@ -56,18 +56,6 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
-            <ImageView
-                android:id="@+id/iV1"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="1" />
-
             <EditText
                 android:id="@+id/eT1"
                 android:layout_width="match_parent"
@@ -81,6 +69,18 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
+            <ImageView
+                android:id="@+id/iV1"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1" />
+
             <Button
                 android:id="@+id/btn1"
                 android:layout_width="wrap_content"
@@ -88,7 +88,8 @@
                 android:layout_weight="3"
                 android:gravity="center"
                 android:onClick="pressed1"
-                android:text="Check" />
+                android:text="Check"
+                android:ems="1"/>
         </LinearLayout>
 
         <Space
@@ -127,18 +128,6 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
-            <ImageView
-                android:id="@+id/iV2"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="1" />
-
             <EditText
                 android:id="@+id/eT2"
                 android:layout_width="match_parent"
@@ -152,13 +141,26 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
+            <ImageView
+                android:id="@+id/iV2"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1" />
+
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="0px"
                 android:layout_weight="3"
                 android:onClick="pressed2"
-                android:text="pressed" />
+                android:text="pressed"
+                android:ems="1"/>
         </LinearLayout>
 
         <Space
@@ -197,18 +199,6 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
-            <ImageView
-                android:id="@+id/iV3"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="1" />
-
             <EditText
                 android:id="@+id/eT3"
                 android:layout_width="match_parent"
@@ -222,6 +212,18 @@
                 android:layout_height="0px"
                 android:layout_weight="1" />
 
+            <ImageView
+                android:id="@+id/iV3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1" />
+
 
             <Button
                 android:id="@+id/btn3"
@@ -229,7 +231,8 @@
                 android:layout_height="0px"
                 android:layout_weight="3"
                 android:onClick="pressed3"
-                android:text="pressed" />
+                android:text="pressed"
+                android:ems="1"/>
         </LinearLayout>
 
         <Space
@@ -255,6 +258,7 @@
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/btn4"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
